@@ -69,6 +69,7 @@ class Timer(object):
         """
         self.stop()
         return False
+        return False
 
 
 @six.add_metaclass(abc.ABCMeta)
